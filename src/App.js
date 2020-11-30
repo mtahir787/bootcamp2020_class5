@@ -7,7 +7,7 @@ function App() {
   let countState = useState(1); // let [count, setcount] = usestate(300);
   return (
     <counterContext.Provider value={countState}>
-      <div>
+      <div className="box">
         <Parent/>
       </div>
     </counterContext.Provider>
